@@ -1,0 +1,38 @@
+.container {
+  width: 75%;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+  }
+
+  .keyboard{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }
+
+.key{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #fa917e;
+  border-radius: 6px;
+  transition: all .07s ease;
+  width: 80px;
+  height: 80px;
+}
+.key > p{
+  margin-bottom: 0;
+  margin-top: 0;
+  font-size: 40px;
+  font-weight: bolder;
+}
+.sound p{
+  margin-bottom: 0;
+  margin-top: 0;
+  color: orange;
+}
+.playing {
+  transform: scale(1.1);
+  border-color: #ffc600;
+  box-shadow: 0 0 8px #ffc600;
+}
